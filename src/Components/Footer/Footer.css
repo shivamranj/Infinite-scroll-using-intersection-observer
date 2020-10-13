@@ -1,0 +1,73 @@
+.card-content {
+  border: none;
+  background-color: #fff;
+  padding-left: 1rem;
+}
+.college-location-fees {
+  display: flex;
+  direction: column;
+  justify-content: space-between;
+}
+.college-fees {
+  color: #dd1c26;
+  font-size: 28.5px;
+  margin-right: 62px;
+  font-weight: 700;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+}
+.location {
+  display: flex;
+  flex-direction: column;
+}
+.college-location {
+  display: flex;
+  direction: row;
+  color: gray;
+}
+.college-location-details {
+  color: gray;
+}
+
+.college-fees-1 {
+  display: block;
+}
+.college-fees-2 {
+  display: block;
+  font-size: 10px;
+  color: gray;
+}
+.college-discount {
+  background-color: rgb(140, 224, 140);
+  font-size: 14px;
+  width: 50%;
+  padding: 4px;
+  margin-top: 10px;
+  border-radius: 0px 30px 30px 0px;
+  margin-left: -17px;
+}
+.college-discount-amenties {
+  display: flex;
+  direction: row;
+}
+.college-amenties {
+  display: flex;
+  direction: row;
+  color: #37b396;
+  margin-left: 20%;
+  margin-top: 8px;
+  font-weight: 700px;
+  font-size: 13.5px;
+}
+.college-name {
+  font-size: 20px;
+}
+polygon {
+  fill: #d8d8d8;
+}
+
+.star > polygon {
+  fill: #444444 !important;
+}

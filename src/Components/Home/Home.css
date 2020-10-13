@@ -1,0 +1,11 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.college-title {
+  margin-left: 1rem;
+}
+#scroll {
+  height: 50px;
+}
