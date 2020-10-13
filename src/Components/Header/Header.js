@@ -19,9 +19,7 @@ export default function Header(props) {
         <section className="college-distance">2kms Away</section>
 
         {/* used static value as the value was not provided in json */}
-        <section className="college-rank">
-          #7 in 260 colleges in North India
-        </section>
+        <section className="college-rank">{props.data.ranking}</section>
         <section className="college-rating">
           <span className="college-rating-1">
             {" "}
