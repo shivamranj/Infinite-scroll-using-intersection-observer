@@ -10,15 +10,14 @@ export default function Header(props) {
         <section className="card-image">
           <img src={img} alt="college photo missing" />
         </section>
-        {/* used static value as the value was not provided in json  */}
+        {props.data.tags.map((status, index) => {
+          return index == 0 ? (
+            <section className="college-status">{status}</section>
+          ) : (
+            <section className="college-distance">{status}</section>
+          );
+        })}
 
-        <section className="college-status">Best college in 2018</section>
-
-        {/* used static value as the value was not provided in json */}
-
-        <section className="college-distance">2kms Away</section>
-
-        {/* used static value as the value was not provided in json */}
         <section className="college-rank">{props.data.ranking}</section>
         <section className="college-rating">
           <span className="college-rating-1">
